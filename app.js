@@ -6,8 +6,7 @@ const baibulo  = require('baibulo')
 app.use(baibulo({ root: '/tmp/baibulo' }))
 
 app.get('/data', (req, res) => {
-  res.setHeader('Content-Type', 'application/json')
-  res.end('{ "message": "Hello, world!" }')
+  res.json({ message: 'Hello, world!' })
 })
 
 app.listen(3000, () => {
