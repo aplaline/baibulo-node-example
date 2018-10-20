@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/padcom/baibulo-node-example#readme",
   "devDependencies": {
-    "baibulo": "^1.0.8",
+    "baibulo": "^1.0.10",
     "baibulo-deploy": "^1.0.4",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.4"
   }
 }

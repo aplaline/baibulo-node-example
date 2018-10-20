@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 const app = require('express')()
+const cookieParser = require('cookie-parser')
 const baibulo  = require('baibulo')
+
+app.use(cookieParser())
 
 app.use(baibulo({ root: '/tmp/baibulo' }))
 
